@@ -46,7 +46,7 @@ function Ebay(options) {
     }
     this.options = options;
     setHeaders(this, options.headers);
-    this.options.globalID = options.countryCode || 'EBAY-US';
+    this.options.globalID = options.countryCode || 'EBAY-GB';
 }
 
 Ebay.prototype = {
